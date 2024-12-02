@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Base */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom-right-radius: 100px;
+    /* background-color: #252525; */
+    background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+    color: #fff;
+}
+
+.header-img {
+    border-radius: 80px;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-style: 26px;
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn {
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    border-radius: 8px;
+    line-height: 1;
+    color: #fff;
+}
+
+.btn-outline {
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #3B3B3B;
+    border-radius: 8px;
+    line-height: 1;
+    color: #fff;
+}
