@@ -63,6 +63,10 @@ body {
     color: #fff;
 }
 
+.btn:hover {
+    background-color: #1782CF;
+}
+
 .btn-outline {
     height: 48px;
     padding-top: 15px;
@@ -72,4 +76,8 @@ body {
     border-radius: 8px;
     line-height: 1;
     color: #fff;
+}
+
+.btn-outline:hover {
+    border-color: #1782CF;
 }
