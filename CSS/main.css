@@ -19,7 +19,6 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
     border-bottom-right-radius: 100px;
-    /* background-color: #252525; */
     background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
     color: #fff;
 }
@@ -82,4 +81,47 @@ body {
 
 .btn-outline:hover {
     border-color: #1782CF;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 80px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 65px;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: opacity 0.2s ease-in;
+}
+
+.project-img:hover {
+    opacity: 0.8;
+}
+
+.project-title {
+    font-size: 22px;
+}
+
+.project-title a {
+    color: #000000;
+    text-decoration: underline;
 }
