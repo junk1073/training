@@ -23,15 +23,15 @@ body {
     color: #fff;
 }
 
-.header-img {
-    border-radius: 80px;
-}
-
 .header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 60px;
+}
+
+.header-img {
+    border-radius: 80px;
 }
 
 .header-title {
@@ -43,7 +43,7 @@ body {
 .header-text {
     margin-bottom: 20px;
     font-weight: 300;
-    font-style: 26px;
+    font-size: 26px;
 }
 
 .header-btns {
