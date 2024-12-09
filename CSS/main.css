@@ -125,3 +125,41 @@ body {
     color: #000000;
     text-decoration: underline;
 }
+
+/* contacts */
+
+.contacts {
+    background-color: #252525;
+    border-top-left-radius: 100px;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.messangers {
+    display: flex;
+    column-gap: 30px;
+}
+
+.messanger {
+    flex-grow: 1;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding: 46px 20px;
+    border-radius: 20px;
+    border: 1px solid #363636;
+    font-size: 20px;
+    color: #fff;
+    transition: background-color 0.2s ease-in;
+}
+
+.messanger:hover {
+    background-color: #1e1e1e;
+}
